@@ -20,5 +20,10 @@ namespace Animal
 
             Console.WriteLine($"O {Tipo} andou");
         }
+
+        public void Comer(string comida)
+        {
+            Console.WriteLine($"O {Tipo} comeu {comida}");
+        }
     }
 }
